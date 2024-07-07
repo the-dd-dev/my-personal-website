@@ -1,35 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leo's Website</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-
-        /* Optionally, you can style the h1 tag for better appearance */
-        h1 {
-            text-align: center;
-            font-family: Arial, sans-serif;
-            color: #333;
-        }
-    </style>
+    <title>Index of /bin</title>
 </head>
 <body>
-    <div>
-        <h1></h1>
+    <h1>Index of /bin</h1>
+    <ul id="fileList">
+        <!-- Links to .bin files will be populated dynamically -->
+    </ul>
 
-        <!-- Embedding the SWF file -->
-        <object data="index.swf" width="800" height="600">
-            <!-- In case the browser doesn't support Flash, fallback content can be added here -->
-            <!-- Example: <p>Your browser doesn't support Flash. Please use a different browser.</p> -->
-        </object>
-        <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
-    </div>
+    <script>
+        // Function to fetch and display .bin files
+        document.addEventListener('DOMContentLoaded', function () {
+            fetchBinFiles();
+        });
+
+        async function fetchBinFiles() {
+            try {
+                const response = await fetch('bin/');
+                const html = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const links = doc.querySelectorAll('a');
+                const fileList = document.getElementById('fileList');
+                links.forEach(link => {
+                    if (link.href.endsWith('.bin')) {
+                        const li = document.createElement('li');
+                        li.innerHTML = `<a href="${link.href}" download>${link.textContent.trim()}</a>`;
+                        fileList.appendChild(li);
+                    }
+                });
+            } catch (error) {
+                console.error('Error fetching .bin files:', error);
+            }
+        }
+    </script>
 </body>
 </html>
