@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download .bin Files</title>
+    <title>List of .bin Files</title>
 </head>
 <body>
     <h1>List of .bin Files</h1>
     <ul id="fileList">
-        <!-- File list will be populated dynamically -->
+        <!-- Links to .bin files will be populated dynamically -->
     </ul>
 
     <script>
         // Specify the directory containing .bin files
-        var files_dir = 'bin';
+        var files_dir = '/bin';
 
         // Function to fetch and display .bin files
         fetch(files_dir)
@@ -26,7 +26,7 @@
                 links.forEach(link => {
                     var li = document.createElement('li');
                     var fileUrl = files_dir + link.getAttribute('href');
-                    li.textContent = link.textContent.trim();
+                    li.innerHTML = `<a href="${fileUrl}" download>${link.textContent.trim()}</a>`;
                     fileList.appendChild(li);
                 });
             })
