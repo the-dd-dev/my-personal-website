@@ -19,7 +19,7 @@
 
         async function fetchBinFiles() {
             try {
-                const response = await fetch('bin/');
+                const response = await fetch('bin');
                 const html = await response.text();
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
