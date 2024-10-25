@@ -1,0 +1,62 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja" data-region="0" data-avail-langs="en fr es it de ja" data-avail-regions="0 1 2 9">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>うごメモはてな</title>
+    <meta property="og:title" content="うごメモはてな">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="./images/og-image.png">
+    <meta property="og:site_name" content="うごメモはてな">
+    <meta property="og:description" content="「うごメモシアター」と「うごメモはてな」は、2013年5月31日24:00をもちまして、サービスを終了させていた...">
+    <link href="./images/favicon.ico" rel="shortcut icon">
+    <link type="image/gif" href="./images/favicon.gif" rel="icon">
+    <link media="all" type="text/css" href="./css/thankyou.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <header>
+      <a href="http://www.hatena.ne.jp/" class="logo">
+        <img src="./images/logo_hatena_header.png">
+      </a>
+    </header>
+    <div class="container">
+      <div class="box">
+        <div class="box-inner">
+          <img src="./images/big_kaeru.gif" class="frog-icon">
+          <h1>うごメモはてな サービス終了のお知らせ</h1>
+          <p>「うごメモシアター」と「うごメモはてな」は、2013年5月31日24:00をもちまして、サービスを終了させていただきました。</p>
+          <p>2008年12月から今まで生まれた素晴らしい作品は、どれも皆様の心に深く残っていることと思います。ご利用いただいた全てのユーザー様に心よりお礼申し上げます。<br>「うごメモシアター」と「うごメモはてな」をご利用いただき、ありがとうございました。</p>
+          <p class="right">株式会社はてな</p>
+          <h1>Flipnote Hatena has ended its service</h1>
+          <p>The Flipnote Hatena website and Flipnote Hatena for Nintendo DSi ended on May 31, 2013. </p>
+          <p>We would like express our sincere gratitude to the members of the Flipnote Hatena community which began in December 2008. The service has now ended, but the memories will always remain.<br>Thank you all for the amazing flipnotes and for your use of the Flipnote Hatena website and Flipnote Hatena for Nintendo DSi.</p>
+          <p class="right">Hatena Co., Ltd.</p>
+        </div>
+      </div>
+    </div>
+    <!--
+
+        THANKS ALL UGOMEMO & FLIPNOTE USERS.
+
+        □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
+        □□□□□□□□□□□□■■■■□□□□■■■■□□□□□□□□□□□□
+        □□□□□□□□□□□□■■■■□□□□■■■■□□□□□□□□□□□□
+        □□□□□□□□□□■■□□■■■■■■■■□□■■□□□□□□□□□□
+        □□□□□□□□□□■■□□■■■■■■■■□□■■□□□□□□□□□□
+        □□□□□□□□□□■■□□■■■■■■■■□□■■□□□□□□□□□□
+        □□□□□□□□□□■■□□■■■■■■■■□□■■□□□□□□□□□□
+        □□□□□□□□□□■■■■■■■■■■■■■■■■□□□□□□□□□□
+        □□□□□□□□□□■■■■■■■■■■■■■■■■□□□□□□□□□□
+        □□□□□□□□■■■■■■■■■■■■■■■■■■■■□□□□□□□□
+        □□□□□□□□■■■■■■■■■■■■■■■■■■■■□□□□□□□□
+        □□□□□□■■■■■■□□□□□□□□□□□□■■■■■■□□□□□□
+        □□□□□□■■■■■■□□□□□□□□□□□□■■■■■■□□□□□□
+        □□□□□□■■■■■■■■□□□□□□□□■■■■■■■■□□□□□□
+        □□□□□□□□■■■■■■■■□□□□■■■■■■■■□□□□□□□□
+        □□□□□□□□■■■■■■■■□□□□■■■■■■■■□□□□□□□□
+        □□□□□□■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□
+        □□□□□□■■■■■■■■■■■■■■■■■■■■■■■■□□□□□□
+        □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□
+
+      -->
+  </body>
+</html>
